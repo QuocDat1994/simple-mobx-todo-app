@@ -1,0 +1,62 @@
+.main {
+  height: 80%;
+  background: url("https://androidhdwallpapers.com/media/uploads/2017/04/Wallpaper-Drunk-Night-Bokeh.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main .status-bar {
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.main .status-bar > * {
+  margin-top: 0.2rem;
+  margin-right: 0.5rem;
+}
+
+.main h1 {
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0 0 1rem 0;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.main .input-field {
+  height: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 0.5rem 0.5rem;
+  border-radius: 5px;
+}
+
+.main .input-field button,
+.main .input-field input {
+  height: 100%;
+  box-sizing: border-box;
+  border: 0;
+  background: none;
+  color: whitesmoke;
+  outline: none;
+}
+
+.main .input-field button {
+  width: 15%;
+  cursor: pointer;
+}
+
+.main .input-field input[type="text"] {
+  width: 85%;
+}
+
+.main .input-field input,
+.main .input-field input::placeholder {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: whitesmoke;
+}

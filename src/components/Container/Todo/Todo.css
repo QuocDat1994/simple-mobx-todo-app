@@ -1,0 +1,53 @@
+.todo {
+  height: 40px;
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin: 0.1rem 0.5rem;
+}
+
+.todo input[type="text"] {
+  width: 80%;
+}
+
+.todo input.disabled {
+  border: 0;
+  background: none;
+  outline: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.todo input.completed {
+  text-decoration: line-through;
+}
+
+.todo button {
+  border: 0;
+  background: none;
+  outline: none;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main .todo button.delete {
+  margin-left: auto;
+}
+
+.main .todo button.delete:hover {
+  color: #eb4d4b;
+}
+
+.main .todo button.edit {
+  margin-right: 1rem;
+}
+
+.main .todo button.edit:hover {
+  color: #05c46b;
+}
+
+input[type="checkbox"] {
+  margin: 0 1.2rem;
+}
